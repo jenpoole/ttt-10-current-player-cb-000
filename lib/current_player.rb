@@ -4,7 +4,7 @@ def turn_count(board)
 
   # 2. for each item in board array
   board.each do |play_position|
-    # 3. if item isn't empty, add 1 to the plays count
+    # 3. if position isn't empty, add 1 to the plays count
     if play_position != " "
       plays_made += 1
     end
